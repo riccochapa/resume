@@ -1,0 +1,161 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/6.2.2/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   'riccochaparesume' ]
+2 info using npm@3.9.5
+3 info using node@v6.2.2
+4 verbose config Skipping project config: /Users/user/.npmrc. (matches userconfig)
+5 verbose publish [ 'riccochaparesume' ]
+6 silly cache add args [ 'riccochaparesume', null ]
+7 verbose cache add spec riccochaparesume
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'riccochaparesume',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'riccochaparesume',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed riccochaparesume@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for riccochaparesume
+11 info addNameTag [ 'riccochaparesume', 'latest' ]
+12 silly mapToRegistry name riccochaparesume
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'riccochaparesume',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'riccochaparesume',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/riccochaparesume
+17 verbose addNameTag registry:https://registry.npmjs.org/riccochaparesume not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/riccochaparesume
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 1:48:00 AM
+21 verbose request using bearer token for auth
+22 verbose request id ee86280fe9815073
+23 verbose etag "5A2M3WSJGLHWA0AVDXYJCFWVR"
+24 http request GET https://registry.npmjs.org/riccochaparesume
+25 http 304 https://registry.npmjs.org/riccochaparesume
+26 verbose headers { 'cache-control': 'max-age=300',
+26 verbose headers   'accept-ranges': 'bytes',
+26 verbose headers   date: 'Fri, 16 Sep 2016 06:48:01 GMT',
+26 verbose headers   via: '1.1 varnish',
+26 verbose headers   connection: 'keep-alive',
+26 verbose headers   'x-served-by': 'cache-dfw1826-DFW',
+26 verbose headers   'x-cache': 'MISS',
+26 verbose headers   'x-cache-hits': '0',
+26 verbose headers   'x-timer': 'S1474008481.079783,VS0,VE49',
+26 verbose headers   vary: 'Accept-Encoding' }
+27 silly get cb [ 304,
+27 silly get   { 'cache-control': 'max-age=300',
+27 silly get     'accept-ranges': 'bytes',
+27 silly get     date: 'Fri, 16 Sep 2016 06:48:01 GMT',
+27 silly get     via: '1.1 varnish',
+27 silly get     connection: 'keep-alive',
+27 silly get     'x-served-by': 'cache-dfw1826-DFW',
+27 silly get     'x-cache': 'MISS',
+27 silly get     'x-cache-hits': '0',
+27 silly get     'x-timer': 'S1474008481.079783,VS0,VE49',
+27 silly get     vary: 'Accept-Encoding' } ]
+28 verbose etag https://registry.npmjs.org/riccochaparesume from cache
+29 verbose get saving riccochaparesume to /Users/user/.npm/registry.npmjs.org/riccochaparesume/.cache.json
+30 verbose correctMkdir /Users/user/.npm correctMkdir not in flight; initializing
+31 silly addNameTag next cb for riccochaparesume with tag latest
+32 silly addNamed riccochaparesume@0.0.1
+33 verbose addNamed "0.0.1" is a plain semver version for riccochaparesume
+34 silly cache afterAdd riccochaparesume@0.0.1
+35 verbose afterAdd /Users/user/.npm/riccochaparesume/0.0.1/package/package.json not in flight; writing
+36 verbose correctMkdir /Users/user/.npm correctMkdir not in flight; initializing
+37 verbose afterAdd /Users/user/.npm/riccochaparesume/0.0.1/package/package.json written
+38 silly publish { name: 'riccochaparesume',
+38 silly publish   version: '0.0.1',
+38 silly publish   description: 'CodeRGV boot creating json files practice.',
+38 silly publish   main: 'index.js',
+38 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+38 silly publish   repository:
+38 silly publish    { type: 'git',
+38 silly publish      url: 'git+https://github.com/riccochapa/boot-resume.git' },
+38 silly publish   keywords: [ 'resume', 'boot', 'project', 'coding', 'academy' ],
+38 silly publish   author: '',
+38 silly publish   license: 'ISC',
+38 silly publish   bugs: { url: 'https://github.com/riccochapa/boot-resume/issues' },
+38 silly publish   homepage: 'https://github.com/riccochapa/boot-resume#readme',
+38 silly publish   gitHead: 'a85f723917866b15b64256d169b3f140f0ddd978',
+38 silly publish   _id: 'riccochaparesume@0.0.1',
+38 silly publish   _shasum: '3115536325b3f80c22aacdf81cfb9d0cd4fe2ffa',
+38 silly publish   _from: 'riccochaparesume@latest',
+38 silly publish   _npmVersion: '3.9.5',
+38 silly publish   _nodeVersion: '6.2.2',
+38 silly publish   _npmUser: { name: 'riccochapa', email: 'riccochapa@gmail.com' },
+38 silly publish   dist:
+38 silly publish    { shasum: '3115536325b3f80c22aacdf81cfb9d0cd4fe2ffa',
+38 silly publish      tarball: 'https://registry.npmjs.org/riccochaparesume/-/riccochaparesume-0.0.1.tgz' },
+38 silly publish   maintainers: [ { name: 'riccochapa', email: 'riccochapa@gmail.com' } ],
+38 silly publish   _npmOperationalInternal:
+38 silly publish    { host: 'packages-12-west.internal.npmjs.com',
+38 silly publish      tmp: 'tmp/riccochaparesume-0.0.1.tgz_1467047095040_0.3943017809651792' },
+38 silly publish   directories: {},
+38 silly publish   _resolved: 'https://registry.npmjs.org/riccochaparesume/-/riccochaparesume-0.0.1.tgz',
+38 silly publish   readme: 'ERROR: No README data found!' }
+39 info lifecycle riccochaparesume@0.0.1~prepublish: riccochaparesume@0.0.1
+40 silly lifecycle riccochaparesume@0.0.1~prepublish: no script for prepublish, continuing
+41 verbose getPublishConfig undefined
+42 silly mapToRegistry name riccochaparesume
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry data Result {
+45 silly mapToRegistry   raw: 'riccochaparesume',
+45 silly mapToRegistry   scope: null,
+45 silly mapToRegistry   name: 'riccochaparesume',
+45 silly mapToRegistry   rawSpec: '',
+45 silly mapToRegistry   spec: 'latest',
+45 silly mapToRegistry   type: 'tag' }
+46 silly mapToRegistry uri https://registry.npmjs.org/riccochaparesume
+47 verbose publish registryBase https://registry.npmjs.org/
+48 silly publish uploading /Users/user/.npm/riccochaparesume/0.0.1/package.tgz
+49 verbose request uri https://registry.npmjs.org/riccochaparesume
+50 verbose request sending authorization for write operation
+51 info attempt registry request try #1 at 1:48:01 AM
+52 verbose request using bearer token for auth
+53 http request PUT https://registry.npmjs.org/riccochaparesume
+54 http 403 https://registry.npmjs.org/riccochaparesume
+55 verbose headers { 'content-type': 'application/json',
+55 verbose headers   'cache-control': 'max-age=300',
+55 verbose headers   'content-length': '95',
+55 verbose headers   'accept-ranges': 'bytes',
+55 verbose headers   date: 'Fri, 16 Sep 2016 06:48:02 GMT',
+55 verbose headers   via: '1.1 varnish',
+55 verbose headers   connection: 'keep-alive',
+55 verbose headers   'x-served-by': 'cache-dfw1826-DFW',
+55 verbose headers   'x-cache': 'MISS',
+55 verbose headers   'x-cache-hits': '0',
+55 verbose headers   'x-timer': 'S1474008481.240495,VS0,VE1036',
+55 verbose headers   vary: 'Accept-Encoding' }
+56 verbose request invalidating /Users/user/.npm/registry.npmjs.org/riccochaparesume on PUT
+57 error publish Failed PUT 403
+58 verbose stack Error: "You cannot publish over the previously published version 0.0.1." : riccochaparesume
+58 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+58 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+58 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+58 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:200:22)
+58 verbose stack     at emitTwo (events.js:106:13)
+58 verbose stack     at Request.emit (events.js:191:7)
+58 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1067:10)
+58 verbose stack     at emitOne (events.js:101:20)
+58 verbose stack     at Request.emit (events.js:188:7)
+58 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:988:12)
+59 verbose statusCode 403
+60 verbose pkgid riccochaparesume
+61 verbose cwd /Users/user/Documents/resume
+62 error Darwin 15.6.0
+63 error argv "/usr/local/Cellar/node/6.2.2/bin/node" "/usr/local/bin/npm" "publish" "riccochaparesume"
+64 error node v6.2.2
+65 error npm  v3.9.5
+66 error code E403
+67 error "You cannot publish over the previously published version 0.0.1." : riccochaparesume
+68 error If you need help, you may report this error at:
+68 error     <https://github.com/npm/npm/issues>
+69 verbose exit [ 1, true ]
