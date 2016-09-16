@@ -3,7 +3,7 @@
 ##About
 
 Focused, determined and passionate about everything tech. Experienced, motivated, strong
-communicator with a proven record of success and rapidly advancing developer skill set.  
+communicator with a proven record of success and rapidly advancing developer skill set.
 
 #Projects
 
