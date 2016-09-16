@@ -44,12 +44,13 @@ https://github.com/riccochapa/projects
   * Researched, documented and provided final resolutions for client disputes
   * Exceptional de-escalation and dispute resolution skill set
 
-##Education
-
-University of Texas at Austin
-1997
-
 ##Social Media
 
 ###Twitter
-https://twitter.com/riccochapa
+https://twitter.com/riccochapa  
+
+##Education
+
+University of Texas at Austin
+
+1997
