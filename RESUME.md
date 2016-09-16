@@ -44,7 +44,7 @@ https://github.com/riccochapa/projects
   * Researched, documented and provided final resolutions for client disputes
   * Exceptional de-escalation and dispute resolution skill set
 
-##Social Media
+##Online
 
 ###Twitter
 https://twitter.com/riccochapa  
