@@ -1,11 +1,12 @@
 #Ricco Chapa
+riccochapa (@) gmail.com
 
 ##About
 
 Focused, determined and passionate about everything tech. Experienced, motivated, strong
 communicator with a proven record of success and rapidly advancing developer skill set.
 
-#Projects
+##Projects
 
 https://github.com/riccochapa/projects
 
