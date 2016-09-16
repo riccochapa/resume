@@ -4,7 +4,13 @@ riccochapa (@) gmail.com
 ##About
 
 Focused, determined and passionate about everything tech. Experienced, motivated, strong
-communicator with a proven record of success and rapidly advancing developer skill set.  
+communicator with a proven record of success and rapidly advancing developer skill set.
+
+##Technical Skills
+
+  * HTML5, CSS3, Bootstrap, Jade, EJS
+  * ES2015 JavaScript, Node.js, Express.js, React.js, Passport.js
+  * Python, MongoDB, Mongoose
 
 ##Projects
 
@@ -38,13 +44,12 @@ https://github.com/riccochapa/projects
   * Researched, documented and provided final resolutions for client disputes
   * Exceptional de-escalation and dispute resolution skill set
 
-##Technical Skills
-
-  * HTML5, CSS3, Bootstrap, Jade, EJS
-  * ES2015 JavaScript, Node.js, Express.js, React.js, Passport.js
-  * Python, MongoDB, Mongoose
-
 ##Education
 
 University of Texas at Austin
 1997
+
+##Social Media
+
+###Twitter
+https://twitter.com/riccochapa
