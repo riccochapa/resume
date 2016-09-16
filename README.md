@@ -38,7 +38,7 @@ https://github.com/riccochapa/projects
   * Researched, documented and provided final resolutions for client disputes
   * Exceptional de-escalation and dispute resolution skill set
 
-##Skills
+##Technical Skills
 
   * HTML5, CSS3, Bootstrap, Jade, EJS
   * ES2015 JavaScript, Node.js, Express.js, React.js, Passport.js
@@ -47,4 +47,4 @@ https://github.com/riccochapa/projects
 ##Education
 
 University of Texas at Austin
-1994 - 1997
+1997
